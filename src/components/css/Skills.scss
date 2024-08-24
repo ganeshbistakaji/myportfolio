@@ -1,0 +1,67 @@
+.skillspc {
+    margin-top: 8%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    span {
+        font-size: 56px;
+    }
+}
+
+.skillsmb {
+    display: none;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .skillsmb {
+        display: none;
+    }
+    .skillspc {
+        span{
+            font-size: 48px;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .skillsmb {
+        display: none;
+    }
+    .skillspc {
+        margin-bottom: 5%;
+        span{
+            font-size: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .skillspc {
+        display: none;
+    }
+
+    .skillsmb {
+        margin-top: 6%;
+        display: block;
+        width: 100%;
+        height: max-content;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+
+        .top, .bottom {
+            display: flex;
+            justify-content: space-evenly;
+
+            span {
+                font-size: 40px;
+                margin-top: 2%;
+            }
+        }
+    }
+}

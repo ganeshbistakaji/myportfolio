@@ -1,0 +1,32 @@
+.bar {
+    margin-top: 8%;
+    width: 100%;
+    height: max-content;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .box {
+        .title {
+            font-size: 32px;
+            font-weight: 600;
+        }
+
+        .desc {
+            font-size: 16px;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .bar {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
