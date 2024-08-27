@@ -7,7 +7,7 @@ const Work = () => {
         <div className="top">
             <div className="left">
                 <p className="title">I've been making</p>
-                <dic className="desc">website templates for people to use it for their site as needed and also have been working on a <strong>SCSS</strong> libarary (now abandone for the time being) due to my other works. I also work with a <strong>linux</strong> devce hence also being experienced in linux (debian/ubuntu). </dic>
+                <dic className="desc">website templates for people to use it for their site as needed and also have been working on a <strong>SCSS</strong> libarary (now abandone for the time being) due to my other works. I also work with a <strong>linux</strong> device hence also being experienced in linux (debian/ubuntu). </dic>
             </div>
             <div className="right">
                 <p className="title">PocketMine-MP</p>
