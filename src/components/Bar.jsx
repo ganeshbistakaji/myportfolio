@@ -5,20 +5,21 @@ const Bar = () => {
   return (
     <div className='bar'>
       <div className="box">
-        <p className="title">3 Years</p>
-        <p className="desc">Web Development</p>
+        <p className="title">Web Development</p>
+        <p className="desc">Full Stack</p>
+        
       </div>
       <div className="box">
-        <p className="title">2 Years</p>
-        <p className="desc">Web/App Design</p>
+        <p className="title">Web/App</p>
+        <p className="desc">Designing</p>
       </div>
       <div className="box">
-        <p className="title">1 Year</p>
-        <p className="desc">PocketMine-MP</p>
+        <p className="title">PocketMine-MP</p>
+        <p className="desc">Minectaft Software</p>
       </div>
       <div className="box">
-        <p className="title">Multiple</p>
-        <p className="desc">Programming Languages</p>
+        <p className="title">Linux Server</p>
+        <p className="desc">Management</p>
       </div>
     </div>
   )
