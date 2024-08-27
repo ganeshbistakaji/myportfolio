@@ -45,7 +45,7 @@ const NavMb = () => {
         <a href="#works" className="list">
           Work
         </a>
-        <a href="#skills" className="list">
+        <a href="#skillsmb" className="list">
           Skills
         </a>
         <div className="line"></div>

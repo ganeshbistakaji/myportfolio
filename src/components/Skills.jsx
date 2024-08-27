@@ -28,7 +28,7 @@ const Skills = () => {
   window.addEventListener("load", onResize);
   return (
     <>
-      <div className="skillspc" id="skills">
+      <div className="skillspc" id="skillspc">
         <span title="HTML">
           <FaHtml5 />
         </span>
@@ -67,7 +67,7 @@ const Skills = () => {
         </span>
       </div>
 
-      <div className="skillsmb" id="skills">
+      <div className="skillsmb" id="skillsmb">
         <div className="top">
           <span title="HTML">
             <FaHtml5 />

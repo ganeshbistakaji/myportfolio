@@ -32,7 +32,7 @@ const NavPc = () => {
           <a href="#works" className="list">
             Work
           </a>
-          <a href="#skills" className="list">
+          <a href="#skillspc" className="list">
             Skills
           </a>
           <div className="line"></div>
